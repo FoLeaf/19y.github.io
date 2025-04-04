@@ -9,10 +9,10 @@
         <copyright>© 19y</copyright>
         <lastBuildDate>Fri, 04 Apr 2025 13:05:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>全场景md测试</title>
-        <link>http://localhost:1313/p/%E5%85%A8%E5%9C%BA%E6%99%AFmd%E6%B5%8B%E8%AF%95/</link>
+        <link>http://localhost:1313/p/slugtest/</link>
         <pubDate>Fri, 04 Apr 2025 13:05:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%85%A8%E5%9C%BA%E6%99%AFmd%E6%B5%8B%E8%AF%95/</guid>
+        <guid>http://localhost:1313/p/slugtest/</guid>
         <description>&lt;h1 id=&#34;markdown-全格式测试文档&#34;&gt;Markdown 全格式测试文档
 &lt;/h1&gt;&lt;h2 id=&#34;1-标题与段落&#34;&gt;1. 标题与段落
 &lt;/h2&gt;&lt;p&gt;这是普通段落，展示&lt;strong&gt;加粗&lt;/strong&gt;、&lt;em&gt;斜体&lt;/em&gt;、&lt;del&gt;删除线&lt;/del&gt;和&lt;code&gt;行内代码&lt;/code&gt;。&lt;br&gt;

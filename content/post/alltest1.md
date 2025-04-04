@@ -2,6 +2,7 @@
 date = '2025-04-04T13:05:19+08:00'
 draft = false
 title = '全场景md测试'
+slug = 'slugtest'
 +++
 # Markdown 全格式测试文档
 
