@@ -61,7 +61,6 @@ params:
     footer:
         since: 2025
         customText: 赣ICP备2025058913号-1
-        beianLink: https://beian.miit.gov.cn
 
     dateFormat:
         published: 2006年01月02日
