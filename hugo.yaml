@@ -2,7 +2,7 @@ baseurl: https://www.19y.cc/
 languageCode: zh-cn
 theme: hugo-theme-stack
 title: 19y的技术栈
-copyright: © 2023 版权所有
+copyright: © 19y
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -59,7 +59,7 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2025
         customText: 赣ICP备2025058913号-1
         beianLink: https://beian.miit.gov.cn
 
