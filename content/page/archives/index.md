@@ -1,7 +1,7 @@
 ---
-title: "Archives"
+title: "历史"
 date: 2019-05-28
-layout: "archives"
+layout: "历史"
 slug: "archives"
 menu:
     main:

@@ -12,29 +12,29 @@ DefaultContentLanguage: zh-cn
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: true
 
-languages:
-    en:
-        languageName: English
-        title: Example Site
-        weight: 1
-        params:
-            sidebar:
-                subtitle: Example description
-    zh-cn:
-        languageName: 中文
-        title: 19y
-        weight: 2
-        params:
-            sidebar:
-                subtitle: 技术分享
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            sidebar:
-                subtitle: وصف تجريبي
+# languages:
+#     en:
+#         languageName: English
+#         title: Example Site
+#         weight: 1
+#         params:
+#             sidebar:
+#                 subtitle: Example description
+#     zh-cn:
+#         languageName: 中文
+#         title: 19y
+#         weight: 2
+#         params:
+#             sidebar:
+#                 subtitle: 技术分享
+#     ar:
+#         languageName: عربي
+#         languagedirection: rtl
+#         title: موقع تجريبي
+#         weight: 3
+#         params:
+#             sidebar:
+#                 subtitle: وصف تجريبي
 
 services:
     # Change it to your Disqus shortname before using
@@ -43,6 +43,7 @@ services:
     # GA Tracking ID
     googleAnalytics:
         id:
+
 
 pagination:
     pagerSize: 3

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="![[Pasted image 20250217104715.png]] ![[Pasted image 20250217104803.png]]\n![[Pasted image 20250217115425.png]] ![[Pasted image 20250217151824.png]] ![[Pasted image 20250217152223.png]]\n[!NOTE]\n关键字 inline 的作用\rinline 是 C/C++ 中的关键字，用于建议编译器将函数内联展开（即在调用处直接插入函数代码，而非生成函数调用指令）。它的主要影响包括：\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" [!NOTE]\n关键字 inline 的作用\rinline 是 C/C++ 中的关键字，用于建议编译器将函数内联展开（即在调用处直接插入函数代码，而非生成函数调用指令）。它的主要影响包括：\n选项 描述 是否正确？ 原因 A：降低栈内存的消耗 ✅ 正确 ✔️ 内联函数避免了函数调用的栈帧开销（如参数压栈、返回地址保存等），从而减少栈内存使用。 B：可以提高代码的运行效率 ✅ 正确 ✔️ 内联消除了函数调用的开销（跳转、返回等），可能提升运行效率（但过度内联可能导致代码膨胀，反而降低缓存命中率）。 C：可以提高微控制器访问内部寄存器的速度 ❌ 错误 ✖️ inline 与寄存器访问速度无关，这是由硬件和编译器优化决定的，而非内联函数的功能。 D：程序中大量使用，会增大代码编译后的可执行文件的大小 ✅ 正确 ✔️ 内联会导致函数代码被多次复制到调用处，若滥用会显著增加二进制文件大小。 ">
 <title>蓝桥杯嵌入式选择题部分错题集</title>
 
 <link rel='canonical' href='http://localhost:1313/p/blue-bridge-cup-choose/'>
 
 <link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="蓝桥杯嵌入式选择题部分错题集">
-<meta property='og:description' content="![[Pasted image 20250217104715.png]] ![[Pasted image 20250217104803.png]]\n![[Pasted image 20250217115425.png]] ![[Pasted image 20250217151824.png]] ![[Pasted image 20250217152223.png]]\n[!NOTE]\n关键字 inline 的作用\rinline 是 C/C++ 中的关键字，用于建议编译器将函数内联展开（即在调用处直接插入函数代码，而非生成函数调用指令）。它的主要影响包括：\n">
+<meta property='og:description' content=" [!NOTE]\n关键字 inline 的作用\rinline 是 C/C++ 中的关键字，用于建议编译器将函数内联展开（即在调用处直接插入函数代码，而非生成函数调用指令）。它的主要影响包括：\n选项 描述 是否正确？ 原因 A：降低栈内存的消耗 ✅ 正确 ✔️ 内联函数避免了函数调用的栈帧开销（如参数压栈、返回地址保存等），从而减少栈内存使用。 B：可以提高代码的运行效率 ✅ 正确 ✔️ 内联消除了函数调用的开销（跳转、返回等），可能提升运行效率（但过度内联可能导致代码膨胀，反而降低缓存命中率）。 C：可以提高微控制器访问内部寄存器的速度 ❌ 错误 ✖️ inline 与寄存器访问速度无关，这是由硬件和编译器优化决定的，而非内联函数的功能。 D：程序中大量使用，会增大代码编译后的可执行文件的大小 ✅ 正确 ✔️ 内联会导致函数代码被多次复制到调用处，若滥用会显著增加二进制文件大小。 ">
 <meta property='og:url' content='http://localhost:1313/p/blue-bridge-cup-choose/'>
-<meta property='og:site_name' content='19y'>
+<meta property='og:site_name' content='19y的技术栈'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-04T14:56:49&#43;08:00'/><meta property='article:modified_time' content='2025-04-04T14:56:49&#43;08:00'/>
 <meta name="twitter:title" content="蓝桥杯嵌入式选择题部分错题集">
-<meta name="twitter:description" content="![[Pasted image 20250217104715.png]] ![[Pasted image 20250217104803.png]]\n![[Pasted image 20250217115425.png]] ![[Pasted image 20250217151824.png]] ![[Pasted image 20250217152223.png]]\n[!NOTE]\n关键字 inline 的作用\rinline 是 C/C++ 中的关键字，用于建议编译器将函数内联展开（即在调用处直接插入函数代码，而非生成函数调用指令）。它的主要影响包括：\n">
+<meta name="twitter:description" content=" [!NOTE]\n关键字 inline 的作用\rinline 是 C/C++ 中的关键字，用于建议编译器将函数内联展开（即在调用处直接插入函数代码，而非生成函数调用指令）。它的主要影响包括：\n选项 描述 是否正确？ 原因 A：降低栈内存的消耗 ✅ 正确 ✔️ 内联函数避免了函数调用的栈帧开销（如参数压栈、返回地址保存等），从而减少栈内存使用。 B：可以提高代码的运行效率 ✅ 正确 ✔️ 内联消除了函数调用的开销（跳转、返回等），可能提升运行效率（但过度内联可能导致代码膨胀，反而降低缓存命中率）。 C：可以提高微控制器访问内部寄存器的速度 ❌ 错误 ✖️ inline 与寄存器访问速度无关，这是由硬件和编译器优化决定的，而非内联函数的功能。 D：程序中大量使用，会增大代码编译后的可执行文件的大小 ✅ 正确 ✔️ 内联会导致函数代码被多次复制到调用处，若滥用会显著增加二进制文件大小。 ">
     </head>
     <body class="
     article-page
@@ -69,8 +69,8 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">19y</a></h1>
-            <h2 class="site-description">技术分享</h2>
+            <h1 class="site-name"><a href="/">19y的技术栈</a></h1>
+            <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -172,7 +172,7 @@
 
 
                 
-                <span>Archives</span>
+                <span>历史</span>
             </a>
         </li>
         
@@ -191,7 +191,7 @@
 
 
                 
-                <span>Search</span>
+                <span>搜索</span>
             </a>
         </li>
         
@@ -216,31 +216,6 @@
         
         <li class="menu-bottom-section">
             <ol class="menu">
-                    
-                        <li id="i18n-switch">  
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
-                                
-                                    <option value="http://localhost:1313/en/" >English</option>
-                                
-                                    <option value="http://localhost:1313/" selected>中文</option>
-                                
-                                    <option value="http://localhost:1313/ar/" >عربي</option>
-                                
-                            </select>
-                        </li>
-                    
-                
 
                 
                     <li id="dark-mode-toggle">
@@ -340,51 +315,6 @@
         <li><a href="#1-7-位地址模式">1. 7 位地址模式</a></li>
         <li><a href="#2-10-位地址模式">2. 10 位地址模式</a></li>
         <li><a href="#3-8-位与4-位的误解">3. “8 位”与“4 位”的误解</a></li>
-        <li><a href="#关键分析逻辑"><strong>关键分析逻辑</strong></a></li>
-        <li><a href="#结论"><strong>结论</strong></a></li>
-        <li><a href="#关键概念理解"><strong>关键概念理解</strong></a></li>
-        <li><a href="#解题逻辑"><strong>解题逻辑</strong></a></li>
-        <li><a href="#选项分析"><strong>选项分析</strong></a></li>
-        <li><a href="#常见误区"><strong>常见误区</strong></a></li>
-        <li><a href="#总结-2"><strong>总结</strong></a></li>
-        <li><a href="#流水线的定义与作用">流水线的定义与作用</a></li>
-        <li><a href="#stm32的流水线设计">STM32的流水线设计</a></li>
-        <li><a href="#流水线的实际影响">流水线的实际影响</a></li>
-        <li><a href="#t触发器的工作原理">T触发器的工作原理：</a></li>
-        <li><a href="#选项分析-1">选项分析：</a></li>
-        <li><a href="#为什么选a">为什么选A？</a></li>
-        <li><a href="#jk触发器">JK触发器</a></li>
-        <li><a href="#rs触发器">RS触发器</a></li>
-        <li><a href="#总结-3">总结</a></li>
-        <li><a href="#逐项解析"><strong>逐项解析</strong></a>
-          <ol>
-            <li><a href="#-b单片机的主频越高其运算速度越快"><strong>✅ B：单片机的主频越高，其运算速度越快</strong></a></li>
-            <li><a href="#-c机器周期是指完成一个基本操作所需要的时间"><strong>✅ C：机器周期是指完成一个基本操作所需要的时间</strong></a></li>
-            <li><a href="#-apc是一个可寻址的寄存器"><strong>❌ A：PC是一个可寻址的寄存器</strong></a></li>
-            <li><a href="#-d场效应管与三极管都是电流控制器件"><strong>❌ D：场效应管与三极管都是电流控制器件</strong></a></li>
-          </ol>
-        </li>
-        <li><a href="#错误原因与改进建议"><strong>错误原因与改进建议</strong></a></li>
-        <li><a href="#总结-4"><strong>总结</strong></a></li>
-        <li><a href="#core通用寄存器"><strong>Core（通用寄存器）</strong></a></li>
-        <li><a href="#xpsr程序状态寄存器"><strong>xPSR（程序状态寄存器）</strong></a></li>
-        <li><a href="#banked堆栈指针"><strong>Banked（堆栈指针）</strong></a></li>
-        <li><a href="#system系统寄存器"><strong>System（系统寄存器）</strong></a></li>
-        <li><a href="#internal内部状态"><strong>Internal（内部状态）</strong></a></li>
-        <li><a href="#fpu浮点运算单元若启用"><strong>FPU（浮点运算单元，若启用）</strong></a></li>
-      </ol>
-    </li>
-    <li><a href="#1-运行模式-run-mode">1. 运行模式 (Run Mode)</a></li>
-    <li><a href="#2-睡眠模式-sleep-mode">2. 睡眠模式 (Sleep Mode)</a></li>
-    <li><a href="#3-停止模式-stop-mode">3. 停止模式 (Stop Mode)</a></li>
-    <li><a href="#4-待机模式-standby-mode">4. 待机模式 (Standby Mode)</a></li>
-    <li><a href="#5-低功耗运行模式-low-power-run-mode">5. 低功耗运行模式 (Low-power Run Mode)</a>
-      <ol>
-        <li>
-          <ol>
-            <li><a href="#1-光电二极管的核心特性">1. ​<strong>光电二极管的核心特性</strong></a></li>
-          </ol>
-        </li>
       </ol>
     </li>
   </ol>
@@ -443,7 +373,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 31 分钟
+                    阅读时长: 14 分钟
                 </time>
             </div>
         
@@ -458,15 +388,50 @@
     <section class="article-content">
     
     
-    <p>![[Pasted image 20250217104715.png]]
-![[Pasted image 20250217104803.png]]</p>
-<p>![[Pasted image 20250217115425.png]]
-![[Pasted image 20250217151824.png]]
-![[Pasted image 20250217152223.png]]</p>
+    <p><img src="/Pasted%20image%2020250217104715.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250217104803.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250217115425.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250217151824.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250217152223.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <h4 id="关键字"><strong>关键字 <code>inline</code> 的作用</strong>
-</h4><p><code>inline</code> 是 C/C++ 中的关键字，用于建议编译器将函数<strong>内联展开</strong>（即在调用处直接插入函数代码，而非生成函数调用指令）。它的主要影响包括：</p></blockquote>
+</h4><p><code>inline</code> 是 C/C++ 中的关键字，用于建议编译器将函数<strong>内联展开</strong>（即在调用处直接插入函数代码，而非生成函数调用指令）。它的主要影响包括：</p>
 <div class="table-wrapper"><table>
   <thead>
       <tr>
@@ -502,23 +467,86 @@
           <td>内联会导致函数代码被多次复制到调用处，若滥用会显著增加二进制文件大小。</td>
       </tr>
   </tbody>
-</table></div>
-<p>![[Pasted image 20250312095023.png]]</p>
+</table></div></blockquote>
+<p><img src="/Pasted%20image%2020250312095023.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]
 答案:D，最高位为1，为负数，负数的补码等于反码取反+1，负数取反符号位不变，得11010100，+1得11010101</p></blockquote>
-<p>![[Pasted image 20250312095838.png]]</p>
+<p><img src="/Pasted%20image%2020250312095838.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]
 <strong>D：AHB2</strong>
 在 STM32G4 系列中，GPIO 外设是挂载在 <strong>AHB2 总线</strong> 上的，因此需要在 RCC 的 AHB2 外设时钟寄存器 (RCC_AHB2ENR) 中使能对应的 GPIO 端口时钟。</p></blockquote>
-<p>![[Pasted image 20250312100030.png]]
-![[Pasted image 20250312101836.png]]
-![[Pasted image 20250312103331.png]]
-![[Pasted image 20250312103615.png]]</p>
-<p>![[Pasted image 20250312104611.png]]
-![[Pasted image 20250312104140.png]]
-![[Pasted image 20250312104926.png]]</p>
+<p><img src="/Pasted%20image%2020250312100030.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312101836.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312103331.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312103615.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312104611.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312104140.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312104926.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <h3 id="总结选项解析"><strong>总结：选项解析</strong>
 </h3><div class="table-wrapper"><table>
   <thead>
@@ -559,7 +587,14 @@
 <blockquote>
 <p>[!NOTE]
 三极管由三个半导体区（发射极、基极、集电极）组成，内部包含两个PN结（BE结和BC结）。</p></blockquote>
-<p>![[Pasted image 20250312105155.png]]</p>
+<p><img src="/Pasted%20image%2020250312105155.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <h3 id="各选项电路的常见应用场景"><strong>各选项电路的常见应用场景</strong>
@@ -626,9 +661,16 @@
 <p>[!NOTE]</p>
 <p><strong>关键区别</strong>：<br>
 • <strong>微分（C）和积分（D）</strong> 是波形转换的核心电路，但作用相反。<br>
-• <strong>比例（A）和求和（B）</strong> 仅处理信号幅度或叠加，不改变波形本质。</p></blockquote>
-<p>建议结合具体需求（如是否需要波形变换、信号放大或混合）选择电路类型。
-![[Pasted image 20250312105211.png]]</p>
+• <strong>比例（A）和求和（B）</strong> 仅处理信号幅度或叠加，不改变波形本质。<br>
+建议结合具体需求（如是否需要波形变换、信号放大或混合）选择电路类型。</p></blockquote>
+<p><img src="/Pasted%20image%2020250312105211.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <h3 id="有源元件-vs-无源元件"><strong>有源元件 vs. 无源元件</strong>
 </h3><div class="table-wrapper"><table>
   <thead>
@@ -656,16 +698,65 @@
       </tr>
   </tbody>
 </table></div>
-<p>![[Pasted image 20250312105231.png]]
-![[Pasted image 20250312105334.png]]
-![[Pasted image 20250312105621.png]]
-![[Pasted image 20250312105650.png]]
-![[Pasted image 20250312105802.png]]</p>
+<p><img src="/Pasted%20image%2020250312105231.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312105334.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312105621.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312105650.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312105802.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]
 此类题目去手册memory map找</p></blockquote>
-<p>![[Pasted image 20250312105915.png]]
-![[Pasted image 20250312111236.png]]</p>
+<p><img src="/Pasted%20image%2020250312105915.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312111236.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <h4 id="1-同步串行synchronous-serial"><strong>1. 同步串行（Synchronous Serial）​</strong>
@@ -705,14 +796,49 @@
 </ul>
 </li>
 </ul></blockquote>
-<p>![[Pasted image 20250312111540.png]]
-![[Pasted image 20250312112058.png]]
-![[Pasted image 20250312112407.png]]
-![[Pasted image 20250312112748.png]]</p>
+<p><img src="/Pasted%20image%2020250312111540.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312112058.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312112407.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312112748.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]
 专用引脚加起来有大约12个（比如4个VDD，4个VSS，1个NRST，2个OSC，2个SWD，可能还有其他），那么剩下的IO数目大概是64-12=52个</p></blockquote>
-<p>![[Pasted image 20250312112900.png]]</p>
+<p><img src="/Pasted%20image%2020250312112900.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]
 ==指数部分<code>1.2</code>是小数，违反<strong>指数必须为整数</strong>的规则。==</p>
@@ -723,31 +849,152 @@
 </ul>
 </li>
 </ul></blockquote>
-<p>![[Pasted image 20250312143932.png]]
-![[Pasted image 20250312144144.png]]
-![[Pasted image 20250312144601.png]]
-![[Pasted image 20250312145218.png]]</p>
+<p><img src="/Pasted%20image%2020250312143932.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312144144.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312144601.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312145218.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <ul>
 <li>​<strong>RS触发器的约束口诀</strong>：​<strong>​“RS=11是禁忌，输出混乱要规避”​</strong>。</li>
 <li>​<strong>JK触发器的优势</strong>：​<strong>​“JK无约束，11可翻转”​</strong>。</li>
 </ul></blockquote>
-<p>![[Pasted image 20250312150818.png]]![[Pasted image 20250312152618.png]]
-![[Pasted image 20250312152911.png]]
-![[Pasted image 20250312152937.png]]
-![[Pasted image 20250312153141.png]]
-![[Pasted image 20250312153812.png]]![[Pasted image 20250314153142.png]]
-![[Pasted image 20250317160414.png]]</p>
-<p>![[Pasted image 20250317161316.png]]
-![[Pasted image 20250317204316.png]]</p>
+<p><img src="/Pasted%20image%2020250312150818.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312152618.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312152911.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312152937.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312153141.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250312153812.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250314153142.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250317160414.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250317161316.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250317204316.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE] Title
 注意得用变化的集电极电流除以基极电流
 β定义为三极管放大倍数</p></blockquote>
-<p>![[Pasted image 20250317205222.png]]
-![[Pasted image 20250317205239.png]]
-![[Pasted image 20250319112128.png]]</p>
+<p><img src="/Pasted%20image%2020250317205222.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250317205239.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250319112128.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]
 这道题目考察的是数字电路中组合逻辑电路和时序逻辑电路的分类理解。我们可以通过以下逻辑进行分析：</p>
@@ -780,7 +1027,22 @@
 <li>常见组合电路：编码/译码器、数据选择/分配器、加法器、比较器。</li>
 </ul>
 <p>通过理解电路是否具备&quot;记忆能力&quot;，可以快速判断此类题型。</p></blockquote>
-<p>![[Pasted image 20250319112228.png]]![[Pasted image 20250319112251.png]]</p>
+<p><img src="/Pasted%20image%2020250319112228.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250319112251.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <h3 id="核心概念解析"><strong>核心概念解析</strong>
@@ -842,7 +1104,14 @@
 </h3><ul>
 <li>​<strong>核心考点</strong>：穿透电流ICEO的双重特性（温度稳定性 + 设计限制参数）。</li>
 </ul></blockquote>
-<p>![[Pasted image 20250319112832.png]]</p>
+<p><img src="/Pasted%20image%2020250319112832.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <h3 id="核心解题思路"><strong>核心解题思路</strong>
@@ -906,7 +1175,14 @@
 <li>​<strong>核心结论</strong>：负反馈是运放工作在线性区的必要条件。</li>
 <li>​<strong>答题关键</strong>：直接关联“线性区”与“负反馈”，排除其他非线性工作模式。</li>
 </ul></blockquote>
-<p>![[Pasted image 20250319113352.png]]</p>
+<p><img src="/Pasted%20image%2020250319113352.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <ul>
@@ -915,7 +1191,14 @@
 <li>​<strong>寄存器</strong>：CPU内部的存储单元，用于指令执行和临时操作，不存储程序代码。</li>
 <li>​<strong>E2PROM（Electrically Erasable Programmable ROM）​</strong>：可擦写的非易失性存储器，用于存储配置参数等需长期保存的数据。</li>
 </ul></blockquote>
-<p>![[Pasted image 20250319113604.png]]</p>
+<p><img src="/Pasted%20image%2020250319113604.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <h4 id="a-rcc正确"><strong>A. RCC（正确）​</strong>
@@ -965,19 +1248,83 @@
 </li>
 <li>​<strong>用户可能忽略</strong>：误认为Systick是内核功能优先级固定，但其优先级可自由设置。</li>
 </ul></blockquote>
-<p>![[Pasted image 20250321210736.png]]</p>
-<p>![[Pasted image 20250321210746.png]]</p>
-<p>![[Pasted image 20250321210754.png]]
-![[Pasted image 20250321210802.png]]
-![[Pasted image 20250321210809.png]]
-![[Pasted image 20250321210821.png]]![[Pasted image 20250322181310.png]]</p>
+<p><img src="/Pasted%20image%2020250321210736.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250321210746.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250321210754.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250321210802.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250321210809.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250321210821.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250322181310.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <ul>
 <li>许多同学一眼看见有“+3 V”和“+9 V”两条支路，就会直觉认为输出可能会是 3 V 或 9 V，结果往往忽略了那条最关键的“通向 0 V”支路。事实上，因为“通向 0 V” 的二极管最先导通，输出会被它死死地钳到 0 V，根本“上不去”3 V 或 9 V。</li>
 </ul></blockquote>
-<p>![[Pasted image 20250322182341.png]]
-![[Pasted image 20250322182643.png]]</p>
+<p><img src="/Pasted%20image%2020250322182341.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250322182643.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <h4 id="d-可以通过软件控制systick定时器启动和停止"><strong>D: 可以通过软件控制SysTick定时器启动和停止</strong>
@@ -985,7 +1332,6 @@
 <li>
 <p>​<strong>正确</strong><br>
 通过设置控制寄存器（CTRL）的<strong>ENABLE位</strong>，可直接用软件启动或停止SysTick计数器。例如：</p>
-<p>c</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -998,7 +1344,14 @@
 </div>
 </div></li>
 </ul></blockquote>
-<p>![[Pasted image 20250322182727.png]]</p>
+<p><img src="/Pasted%20image%2020250322182727.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <h2 id="跨平台可移植d并非嵌入式系统的普遍特征">“跨平台可移植（D）”并非嵌入式系统的普遍特征
@@ -1029,11 +1382,46 @@
 <p>虽然<strong>部分嵌入式 RTOS 或应用层</strong>可以做到一定程度的可移植性，但这并<strong>不是所有嵌入式系统的共性</strong>。不少教材或考试题更倾向于强调嵌入式的“专用、定制、不可随意跨平台”的一面，因此<strong>D 往往被排除</strong>。</p>
 </li>
 </ul></blockquote>
-<p>![[Pasted image 20250322182800.png]]</p>
-<p>![[Pasted image 20250322183431.png]]
-![[Pasted image 20250325190843.png]]
-![[Pasted image 20250325190853.png]]
-![[Pasted image 20250325191110.png]]</p>
+<p><img src="/Pasted%20image%2020250322182800.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250322183431.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250325190843.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250325190853.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+<img src="/Pasted%20image%2020250325191110.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]
 在电子技术里，当题目说“电压增益为 -20 dB”时，指的是用分贝（dB）来度量“电压增益（Voltage Gain）”这一物理量。<strong>关键公式</strong>是：</p>
@@ -1054,7 +1442,14 @@
 </li>
 </ol>
 <p>所以当电压增益为 -20 dB 时，对应的<strong>线性电压增益</strong>是 0.10.1 倍（也可以理解为衰减 10 倍）。因此题目中的正确答案是 0.1 倍。</p></blockquote>
-<p>![[Pasted image 20250325191402.png]]</p>
+<p><img src="/Pasted%20image%2020250325191402.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]
 从题目与选项来看，这道题考察的是<strong>多级放大电路的通频带(带宽)随级数增加而变化的规律</strong>。题目给出的选项是：</p>
@@ -1100,7 +1495,14 @@
 <hr>
 <h2 id="3-结论">3. 结论
 </h2><p>由于多级放大器的总通频带是各级通频带综合作用的结果，而每级的高低频衰减特性相叠加后，往往导致<strong>整体频率范围（带宽）变窄</strong>，这是理论与实际中都能观察到的普遍规律。所以正确答案为 <strong>B：变窄</strong>。</p></blockquote>
-<p>![[Pasted image 20250325191635.png]]</p>
+<p><img src="/Pasted%20image%2020250325191635.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 <blockquote>
 <p>[!NOTE]</p>
 <h3 id="1-7-位地址模式">1. 7 位地址模式
@@ -1123,657 +1525,7 @@
 </ul>
 <h3 id="3-8-位与4-位的误解">3. “8 位”与“4 位”的误解
 </h3><ul>
-<li>
-<p>有人将“7 位地址 + 1 位读写标志”误以为是“8 位地址”，但在 I²C 协议定义中，<strong>读写标志并不计入地址位数</strong>，因此<strong>不存在“8 位地址模式”</strong>。</p>
-</li>
-<li>
-<p>至于“4 位地址模式”，则更不在官方规范内，也没有被广泛使用或支持。</p>
-</li>
-</ul></blockquote>
-<p>![[Pasted image 20250325192106.png]]</p>
-<blockquote>
-<p>[!NOTE]</p>
-<h3 id="关键分析逻辑"><strong>关键分析逻辑</strong>
-</h3><ol>
-<li>
-<p><strong>单端信号 vs 差分信号</strong><br>
-• <strong>单端信号</strong>（如SPI、UART-TTL、I2C）：信号电平以地为参考，必须共地才能正确识别逻辑电平。<br>
-• <strong>差分信号</strong>（如RS485）：通过两条线的电压差传递信号，理论上无需共地，但实际中可能需共地以消除地电位差带来的风险。</p>
-</li>
-<li>
-<p><strong>逐个协议分析</strong><br>
-• <strong>SPI（B）</strong>：单端信号，主从设备需共用时钟和数据的参考地。若地不共，逻辑电平会因参考点不同而误判。<br>
-• <strong>UART-TTL（C）</strong>：单端信号，发送端和接收端的GND必须相连，否则无法正确识别高低电平。<br>
-• <strong>RS485（D）</strong>：虽然为差分信号，但长距离通信时地电位差可能导致共模电压超限，损坏接口。实际应用中常要求共地以保护设备。<br>
-• <strong>I2C（A）</strong>：单端信号且依赖上拉电阻，常规情况下需共地。但题目未将其列为正确答案，可能是出题者认为I2C可通过隔离器或电平转换器不共地（需结合题目设定）。</p>
-</li>
-<li>
-<p><strong>用户错误点</strong><br>
-• 用户选择了I2C（A），但根据题目设定，正确答案排除A，说明题目可能认为I2C无需强制共地（与实际常规认知存在差异）。<br>
-• 用户漏选RS485（D），未考虑其实际应用中的共地需求。</p>
-</li>
-</ol>
-<hr>
-<h3 id="结论"><strong>结论</strong>
-</h3><p>• <strong>必须共地的通信方式</strong>：SPI（B）、UART-TTL（C）、RS485（D）。<br>
-• <strong>推理核心</strong>：单端信号协议（B、C）必须共地；差分信号（D）虽理论无需，但实际为安全需共地。<br>
-• <strong>题目潜在争议</strong>：I2C常规需共地，但题目答案未包含，可能源于出题者的特定设定或错误。</p>
-<p>建议在考试中优先遵循题目设定，但实际开发需严格参考协议规范。</p></blockquote>
-<p>![[Pasted image 20250326175042.png]]</p>
-<blockquote>
-<p>[!NOTE]
-在TTL（Transistor-Transistor Logic，晶体管-晶体管逻辑）电路中，输入端如果悬空（未接任何电平），默认状态通常会被视为<strong>高电平</strong>。原因如下：</p>
-<ol>
-<li>
-<p><strong>TTL输入的结构特点</strong>：</p>
-<ul>
-<li>
-<p>TTL输入端内部通常包含上拉电阻，使其在未连接外部信号时自然拉高到逻辑高电平（通常接近Vcc）。</p>
-</li>
-<li>
-<p>这与CMOS电路不同，CMOS电路的悬空输入通常会导致状态不确定。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>悬空时的默认逻辑</strong>：</p>
-<ul>
-<li>由于内部的上拉特性，悬空时等效于高电平，而不是低电平或接地。</li>
-</ul>
-</li>
-<li>
-<p><strong>为什么“C：等效于接地”是错误的？</strong></p>
-<ul>
-<li>接地意味着输入被明确连接到GND，而TTL的悬空状态不会主动拉到GND，而是上拉到高电平。</li>
-</ul>
-</li>
-<li>
-<p><strong>为什么不是“D：状态不确定”？</strong></p>
-<ul>
-<li>在TTL电路中，典型的未连接输入会被默认拉高到高电平，因此并不会出现不确定状态。</li>
-</ul>
-</li>
-</ol></blockquote>
-<p>![[Pasted image 20250326175553.png]]</p>
-<p>![[Pasted image 20250326180215.png]]</p>
-<blockquote>
-<p>[!NOTE]</p>
-<h3 id="关键概念理解"><strong>关键概念理解</strong>
-</h3><ol>
-<li>
-<p><strong>伏安特性曲线</strong><br>
-二极管的正向伏安特性曲线表示其导通电流（I）与正向电压（V）的关系。在正向偏置下，电流随电压指数增长，但需要克服一个“导通电压”（硅管约0.7V，锗管约0.3V）。</p>
-</li>
-<li>
-<p><strong>温度对二极管的影响</strong><br>
-• <strong>导通电压（V_f）的温度依赖性</strong>：<br>
-温度每升高1℃，二极管的导通电压会减小约2mV。反之，温度下降时，导通电压会略微<strong>增大</strong>。
-• <strong>载流子迁移率</strong>：<br>
-温度降低时，半导体内部的载流子（电子和空穴）热运动减弱，迁移率降低，导致相同电压下电流减小。</p>
-</li>
-</ol>
-<hr>
-<h3 id="解题逻辑"><strong>解题逻辑</strong>
-</h3><p>题目问的是<strong>环境温度下降</strong>时，正向伏安特性曲线的变化趋势。<br>
-• <strong>正确逻辑链</strong>：<br>
-3. 温度下降 → 导通电压（V_f）增大 → 需要更高的电压才能产生相同的电流。<br>
-4. 温度下降 → 载流子迁移率降低 → 相同电压下的电流减小。</p>
-<p><strong>综合结果</strong>：<br>
-曲线整体会<strong>向右移动</strong>（即相同电流需要更高的电压，或相同电压下电流更小）。</p>
-<hr>
-<h3 id="选项分析"><strong>选项分析</strong>
-</h3><p>• <strong>A. 左移</strong>❌：表示相同电流需要更低的电压，对应温度升高的情况。<br>
-• <strong>B. 右移</strong>✅：正确。温度下降时，导通电压增大，曲线右移。<br>
-• <strong>C. 上移</strong>❌：表示相同电压下电流更大，与温度降低时电流减小的现象矛盾。<br>
-• <strong>D. 下移</strong>❌：表示电流整体减小，但题目问的是曲线的<strong>横向位移</strong>（电压变化），而非纵向平移（电流变化）。</p>
-<hr>
-<h3 id="常见误区"><strong>常见误区</strong>
-</h3><p>• <strong>误选C（上移）</strong>：可能混淆了“电流变化”与“曲线平移”的概念。<br>
-• 温度下降时，虽然相同电压下的电流会减小（曲线下移），但题目问的是“伏安特性曲线”的整体变化趋势，需关注导通电压的变化（右移）。<br>
-• <strong>举例</strong>：若温度从25℃降到0℃，导通电压从0.7V变为0.72V，此时曲线需右移0.02V才能达到相同电流。</p>
-<hr>
-<h3 id="总结-2"><strong>总结</strong>
-</h3><p><strong>正确答案：B（右移）</strong><br>
-温度下降导致二极管导通电压略微增大，且载流子迁移率降低，因此伏安特性曲线整体向右移动。</p></blockquote>
-<p>![[Pasted image 20250326180450.png]]
-![[Pasted image 20250326180802.png]]![[Pasted image 20250327154948.png]]
-STM32微控制器提供的流水线级别为<strong>B:3级</strong>。</p>
-<blockquote>
-<p>[!NOTE]</p>
-<h3 id="流水线的定义与作用">流水线的定义与作用
-</h3><p>流水线是一种通过将指令执行分解为多个阶段（如取指、解码、执行）并并行处理的技术，以提高处理器的效率和吞吐率。其核心思想类似工厂的生产流水线，每个阶段专注于特定任务，多指令可同时处于不同阶段，从而减少整体执行时间。</p>
-<h3 id="stm32的流水线设计">STM32的流水线设计
-</h3><ol>
-<li>
-<p><strong>三级流水线</strong><br>
-对于采用Cortex-M3内核的STM32微控制器（如STM32F103系列），其流水线为<strong>3级</strong>，包括：<br>
-• <strong>取指（Fetch）</strong>：从存储器中读取指令。<br>
-• <strong>解码（Decode）</strong>：解析指令的操作逻辑。<br>
-• <strong>执行（Execute）</strong>：执行指令的运算或操作。<br>
-这种设计能在流水线填满后实现指令的并行处理，显著提升效率。</p>
-</li>
-<li>
-<p><strong>不同内核的差异</strong><br>
-• <strong>Cortex-M0/M1/M3</strong>：均为3级流水线。<br>
-• <strong>Cortex-M7</strong>：采用更先进的<strong>6级双发射流水线</strong>，可同时处理两条指令，性能更高。</p>
-</li>
-</ol>
-<h3 id="流水线的实际影响">流水线的实际影响
-</h3><p>• <strong>性能优化</strong>：流水线通过并行操作减少指令执行的平均周期数，例如STM32的1.25MIPS/MHz指标即受益于此设计。<br>
-• <strong>分支预测与中断处理</strong>：CM3内核在解码阶段进行分支预测，减少跳转时的流水线停顿。</p>
-<p>综上，**选项B（3级）**为正确答案，适用于大多数STM32系列（如M3内核）。若涉及M7内核则需单独考量。</p></blockquote>
-<p>![[Pasted image 20250327155311.png]]![[Pasted image 20250329202856.png]]</p>
-<blockquote>
-<p>[!NOTE]
-根据题目描述，8位地址的IIC总线理论上可挂载的从器件数量取决于地址分配规则：</p>
-<ol>
-<li><strong>IIC地址结构</strong>：7位用于从机地址（最高位为读写位），因此实际可用地址范围为0x00~0x7F（共128个地址）。</li>
-<li><strong>保留地址</strong>：IIC协议保留部分地址（如广播地址0x00、设备ID地址等），实际可用地址通常为 <strong>127个</strong>（选项D正确）。</li>
-<li><strong>用户误区</strong>：选择A（256）可能是误将8位二进制全部用于地址，未考虑协议限制。</li>
-</ol>
-<p>建议复习IIC地址分配原理，重点关注7位地址空间及保留地址的排除规则。</p></blockquote>
-<p>![[Pasted image 20250329203034.png]]
-![[Pasted image 20250330165228.png]]
-![[Pasted image 20250330165537.png]]</p>
-<div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>负反馈类型</th>
-          <th>反馈信号性质</th>
-          <th>主要作用</th>
-          <th>应用场景</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>电压负反馈</strong></td>
-          <td>输出电压</td>
-          <td>稳定输出电压，降低输出阻抗</td>
-          <td>稳压电源、音频功率放大器</td>
-      </tr>
-      <tr>
-          <td><strong>电流负反馈</strong></td>
-          <td>输出电流</td>
-          <td>稳定输出电流，提高输出阻抗</td>
-          <td>恒流源、LED驱动、电池充电器</td>
-      </tr>
-      <tr>
-          <td><strong>串联负反馈</strong></td>
-          <td>串联电压</td>
-          <td>提高输入阻抗</td>
-          <td>传感器放大器、高阻抗信号源</td>
-      </tr>
-      <tr>
-          <td><strong>并联负反馈</strong></td>
-          <td>并联电流</td>
-          <td>降低输入阻抗</td>
-          <td>运算放大器反相放大器、低阻抗信号源</td>
-      </tr>
-      <tr>
-          <td>![[Pasted image 20250330174208.png]]</td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-  </tbody>
-</table></div>
-<blockquote>
-<p>[!NOTE]</p>
-<h3 id="t触发器的工作原理">T触发器的工作原理：
-</h3><p>T触发器是一种特殊的触发器，具有一个输入端（T）和一个时钟信号（CLK）。它的功能如下：</p>
-<ol>
-<li>
-<p><strong>当 T = 0 时：</strong></p>
-<ul>
-<li>触发器保持当前状态不变，输出不会发生变化。</li>
-<li>这对应于 <strong>保持</strong> 功能。</li>
-</ul>
-</li>
-<li>
-<p><strong>当 T = 1 时：</strong></p>
-<ul>
-<li>每当时钟信号的触发边沿（如上升沿或下降沿）到来时，触发器的输出会翻转状态。</li>
-<li>如果当前输出为 <code>0</code>，它会变成 <code>1</code>；如果当前输出为 <code>1</code>，它会变成 <code>0</code>。</li>
-<li>这种状态翻转的行为正好对应于 <strong>计数</strong> 功能（即在二进制计数中实现“加1”操作）。</li>
-</ul>
-</li>
-</ol></blockquote>
-<p>![[Pasted image 20250330174616.png]]</p>
-<blockquote>
-<p>[!NOTE]</p>
-<ol>
-<li>
-<p><strong>电源从星形改成三角形联结</strong>：</p>
-<ul>
-<li>电源的线电压变大了（增大 $\sqrt{3}$ 倍）。</li>
-<li>但为了保持总功率不变，电源的线电流必须减小。</li>
-</ul>
-</li>
-<li>
-<p><strong>负载电流的变化</strong>：</p>
-<ul>
-<li>负载是星形联结，它的电流直接由电源提供。</li>
-<li>由于电源的电流减小，负载的电流也会随之减小。</li>
-</ul>
-</li>
-</ol>
-<p>所以，<strong>负载电流有效值会减小</strong>。</p>
-<p><strong>答案：B: 减小</strong></p></blockquote>
-<p>![[Pasted image 20250330174826.png]]</p>
-<blockquote>
-<p>[!NOTE]
-移位寄存器是一种能够存储和移动数据的数字电路，其核心是通过时钟信号控制数据在触发器之间的传递。为了实现移位寄存器的功能，通常需要使用 <strong>边沿触发的触发器</strong>，因为它们能够在时钟信号的特定边沿（如上升沿或下降沿）捕获输入并更新输出，从而保证数据的同步传递。</p>
-<h3 id="选项分析-1">选项分析：
-</h3><p>A. <strong>D触发器</strong><br>
-D触发器是一种边沿触发的触发器，具有一个数据输入端（D）和一个时钟输入端（CLK）。当时钟信号到达触发边沿时，D触发器会将输入端的数据传递到输出端。这种特性使得D触发器非常适合用于构建移位寄存器，因为每个D触发器可以在时钟信号的作用下，依次将数据传递到下一个触发器，从而实现数据的“移位”功能。因此，<strong>D触发器是构成移位寄存器的最佳选择</strong>。</p>
-<p>B. <strong>JK触发器</strong><br>
-JK触发器也是一种边沿触发的触发器，但它有更复杂的功能（如置位、复位、保持和翻转），并且需要两个输入（J和K）。虽然理论上可以用JK触发器构建移位寄存器，但其实现过程较为复杂，且不如D触发器直接和高效。因此，JK触发器一般不作为首选。</p>
-<p>C. <strong>锁存器</strong><br>
-锁存器是电平触发的存储元件，它在时钟信号处于特定电平（如高电平或低电平）时透明地传递输入信号。由于锁存器对时钟信号的电平敏感，而不是边沿敏感，因此在构建移位寄存器时容易出现竞争和冒险问题，导致数据不稳定。所以，锁存器不适合用来构建移位寄存器。</p>
-<p>D. <strong>T触发器</strong><br>
-T触发器是一种特殊的触发器，主要用于计数器和分频器的设计。它的功能是在时钟信号的触发边沿翻转输出状态（如果T=1），或者保持输出不变（如果T=0）。由于T触发器没有直接的数据输入端，因此无法像D触发器那样方便地用于数据的移位操作。</p>
-<hr>
-<h3 id="为什么选a">为什么选A？
-</h3><ol>
-<li><strong>D触发器是边沿触发的</strong>，能够确保数据在时钟信号的特定边沿被捕获和传递，避免了竞争和冒险问题。</li>
-<li><strong>D触发器结构简单</strong>，只需一个数据输入端（D）即可实现数据的存储和传递，非常适合用于移位寄存器的设计。</li>
-<li><strong>移位寄存器的核心需求是数据的同步移位</strong>，而D触发器正好满足这一需求，能够通过级联的方式实现多位数据的移位操作。</li>
-</ol>
-<p>因此，答案是 <strong>A: D触发器</strong>。</p>
-<h3 id="jk触发器">JK触发器
-</h3><p>JK触发器是一种功能全面的边沿触发式触发器，具有两个输入端：J和K。它克服了基本RS触发器中存在的不确定状态（也称为不稳定状态或非法状态）的问题，并且在时钟脉冲的作用下能够实现多种逻辑功能。</p>
-<ul>
-<li><strong>J 输入</strong>：用于设置触发器的状态。</li>
-<li><strong>K 输入</strong>：用于复位触发器的状态。</li>
-<li><strong>时钟输入 (CLK)</strong>：控制触发器何时响应J和K输入的变化。</li>
-</ul>
-<p>JK触发器的主要特点包括：</p>
-<ul>
-<li>当J=1, K=0时，在时钟脉冲的上升沿（或下降沿，取决于具体设计），触发器被置位（输出为1）。</li>
-<li>当J=0, K=1时，在时钟脉冲的作用下，触发器被复位（输出为0）。</li>
-<li>当J=1, K=1时，每次时钟脉冲到来时，触发器会翻转其当前状态（即从0到1或者从1到0），这种操作有时被称为“计数”模式。</li>
-<li>当J=0, K=0时，触发器保持当前状态不变。</li>
-</ul>
-<h3 id="rs触发器">RS触发器
-</h3><p>RS触发器是较为基础的一种触发器类型，具有两个输入端：R（Reset）和S（Set）。它的功能相对简单，但存在一个潜在问题——当R和S同时为有效电平时，会导致不确定的状态。</p>
-<ul>
-<li><strong>R 输入</strong>：复位输入，用于将触发器状态设置为0。</li>
-<li><strong>S 输入</strong>：置位输入，用于将触发器状态设置为1。</li>
-</ul>
-<p>RS触发器的特点如下：</p>
-<ul>
-<li>如果S=1, R=0，则触发器被置位（输出为1）。</li>
-<li>如果S=0, R=1，则触发器被复位（输出为0）。</li>
-<li>如果S=0, R=0，则触发器保持先前的状态不变。</li>
-<li>如果S=1, R=1，则触发器进入不确定状态，因为这会导致相互矛盾的操作（同时尝试设置和复位），可能导致不可预测的行为。</li>
-</ul>
-<h3 id="总结-3">总结
-</h3><ul>
-<li><strong>JK触发器</strong>提供了更广泛的逻辑功能，包括置位、复位、保持和翻转，并解决了RS触发器中的不确定状态问题。</li>
-<li><strong>RS触发器</strong>虽然结构简单，但由于存在S和R同时有效时的不确定状态，限制了它的应用范围。</li>
-</ul>
-<p>两种触发器都在数字电路中有着重要的作用，但JK触发器由于其灵活性和稳定性，通常被认为是更为通用的选择。</p></blockquote>
-<p>![[Pasted image 20250401163429.png]]</p>
-<blockquote>
-<p>[!NOTE]</p>
-<h3 id="逐项解析"><strong>逐项解析</strong>
-</h3><h4 id="-b单片机的主频越高其运算速度越快"><strong>✅ B：单片机的主频越高，其运算速度越快</strong>
-</h4><p>• <strong>正确</strong>：单片机的主频（时钟频率）决定了CPU执行指令的速度，主频越高，单位时间内能执行的指令越多，运算速度越快。<br>
-• <strong>注意</strong>：虽然主频影响速度，但实际性能还受架构、指令集、缓存等因素影响。</p>
-<h4 id="-c机器周期是指完成一个基本操作所需要的时间"><strong>✅ C：机器周期是指完成一个基本操作所需要的时间</strong>
-</h4><p>• <strong>正确</strong>：机器周期（Machine Cycle）是CPU执行一个基本操作（如取指、译码、执行）所需的时间，通常由多个时钟周期组成。</p>
-<h4 id="-apc是一个可寻址的寄存器"><strong>❌ A：PC是一个可寻址的寄存器</strong>
-</h4><p>• <strong>错误</strong>：PC（Program Counter，程序计数器）用于存储下一条指令的地址，但<strong>它通常不可直接寻址</strong>（即不能像通用寄存器那样用指令直接读写）。</p>
-<h4 id="-d场效应管与三极管都是电流控制器件"><strong>❌ D：场效应管与三极管都是电流控制器件</strong>
-</h4><p>• <strong>错误</strong>：<br>
-• <strong>三极管（BJT）<strong>是</strong>电流控制器件</strong>（基极电流控制集电极电流）。<br>
-• <strong>场效应管（FET）<strong>是</strong>电压控制器件</strong>（栅极电压控制漏极电流）。</p>
-<hr>
-<h3 id="错误原因与改进建议"><strong>错误原因与改进建议</strong>
-</h3><ol>
-<li><strong>误选A</strong>：混淆了PC与通用寄存器的区别，PC通常不可直接寻址。</li>
-<li><strong>误选D</strong>：未区分三极管（电流控制）和场效应管（电压控制）。</li>
-<li><strong>改进方法</strong>：<br>
-• 复习<strong>单片机架构</strong>（PC、寄存器、时钟周期等概念）。<br>
-• 区分<strong>电子器件控制方式</strong>（BJT vs FET）。</li>
-</ol>
-<hr>
-<h3 id="总结-4"><strong>总结</strong>
-</h3><p>• <strong>正确答案：B、C</strong>（主频影响速度，机器周期是基本操作时间）。<br>
-• <strong>错误选项：A、D</strong>（PC不可直接寻址，FET是电压控制）。<br>
-• <strong>建议</strong>：重点理解单片机工作原理和半导体器件特性，避免概念混淆。</p></blockquote>
-<blockquote>
-<p>[!NOTE]
-这是 Keil 调试器中的 <strong>Registers（寄存器）窗口</strong>，它显示了 ARM Cortex-M 内核的寄存器状态。下面是每个参数的含义：</p>
-<hr>
-<h3 id="core通用寄存器"><strong>Core（通用寄存器）</strong>
-</h3><p>这些是 Cortex-M 处理器的通用寄存器（R0-R15）：</p>
-<ul>
-<li>
-<p><strong>R0-R12</strong>：通用寄存器，通常用于存储计算数据和函数参数。</p>
-</li>
-<li>
-<p><strong>R13（SP）</strong>：堆栈指针（Stack Pointer），指向当前栈顶。</p>
-</li>
-<li>
-<p><strong>R14（LR）</strong>：链接寄存器（Link Register），存储函数返回地址。</p>
-</li>
-<li>
-<p><strong>R15（PC）</strong>：程序计数器（Program Counter），指向当前执行的指令地址。</p>
-</li>
-</ul>
-<hr>
-<h3 id="xpsr程序状态寄存器"><strong>xPSR（程序状态寄存器）</strong>
-</h3><ul>
-<li>
-<p><strong>xPSR（Program Status Register）</strong>：存储当前执行状态，包括：</p>
-<ul>
-<li>
-<p><strong>N（负标志）</strong>、<strong>Z（零标志）</strong>、<strong>C（进位标志）</strong>、<strong>V（溢出标志）</strong>。</p>
-</li>
-<li>
-<p><strong>Thumb 状态位</strong>（T 位）。</p>
-</li>
-<li>
-<p><strong>异常号</strong>（如果在中断上下文中）。</p>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="banked堆栈指针"><strong>Banked（堆栈指针）</strong>
-</h3><ul>
-<li>
-<p><strong>MSP（Main Stack Pointer）</strong>：主堆栈指针，通常在特权模式下使用。</p>
-</li>
-<li>
-<p><strong>PSP（Process Stack Pointer）</strong>：进程堆栈指针，通常用于用户模式任务。</p>
-</li>
-</ul>
-<hr>
-<h3 id="system系统寄存器"><strong>System（系统寄存器）</strong>
-</h3><ul>
-<li>
-<p><strong>BASEPRI</strong>：基本优先级屏蔽寄存器，设置屏蔽的最低中断优先级。</p>
-</li>
-<li>
-<p><strong>PRIMASK</strong>：优先级掩码，设置为 1 时屏蔽所有可屏蔽中断（除了 NMI 和 HardFault）。</p>
-</li>
-<li>
-<p><strong>FAULTMASK</strong>：故障掩码，设置为 1 时屏蔽所有异常（包括 HardFault，但不包括 NMI）。</p>
-</li>
-<li>
-<p><strong>CONTROL</strong>：控制寄存器，决定是否使用 PSP 以及是否进入特权模式：</p>
-<ul>
-<li>
-<p>Bit 0: 0 = 使用 MSP，1 = 使用 PSP。</p>
-</li>
-<li>
-<p>Bit 1: 0 = 运行在特权模式，1 = 运行在用户模式。</p>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="internal内部状态"><strong>Internal（内部状态）</strong>
-</h3><ul>
-<li>
-<p><strong>Mode</strong>：当前模式（Thread 表示线程模式，Handler 表示中断处理模式）。</p>
-</li>
-<li>
-<p><strong>Privilege</strong>：当前特权级（Privileged 表示特权模式，Unprivileged 表示非特权模式）。</p>
-</li>
-<li>
-<p><strong>Stack</strong>：当前使用的堆栈（MSP 或 PSP）。</p>
-</li>
-<li>
-<p><strong>States</strong>：CPU 状态信息，可能包含调试状态、异常状态等。</p>
-</li>
-<li>
-<p><strong>Sec</strong>：程序运行时间（秒）。</p>
-</li>
-</ul>
-<hr>
-<h3 id="fpu浮点运算单元若启用"><strong>FPU（浮点运算单元，若启用）</strong>
-</h3><p>如果启用了 FPU（浮点运算单元），会有如下寄存器：</p>
-<ul>
-<li>
-<p><strong>S</strong>：单精度浮点寄存器（S0-S31）。</p>
-</li>
-<li>
-<p><strong>D</strong>：双精度浮点寄存器（D0-D15）。</p>
-</li>
-<li>
-<p><strong>Float/Double</strong>：存储浮点运算数据。</p>
-</li>
-<li>
-<p><strong>FPSCR（浮点状态和控制寄存器）</strong>：控制浮点计算行为，存储计算结果状态（如溢出、舍入模式等）。</p>
-</li>
-</ul></blockquote>
-<p>![[Pasted image 20250401165327.png]]
-放大电路需要增益，但是也需要平衡稳定性和带宽。</p>
-<blockquote>
-<p>[!NOTE]
-这道题考察的是<strong>负反馈对放大电路的作用</strong>，你的答案是 <strong>A、B、D</strong>，但正确答案是 <strong>A、B、C</strong>，我们来分析一下各选项的对错：</p>
-<ul>
-<li>
-<p><strong>A：提高放大电路的稳定性 ✅</strong><br>
-负反馈可以减少增益对元件参数的依赖，提高电路的稳定性，因此这个选项是正确的。</p>
-</li>
-<li>
-<p><strong>B：减小非线性失真 ✅</strong><br>
-负反馈可以降低放大电路的非线性失真，提高信号的线性度，因此这个选项是正确的。</p>
-</li>
-<li>
-<p><strong>C：减小放大增益 ✅</strong><br>
-负反馈会降低放大电路的增益（但提升稳定性和带宽），所以这个选项是正确的。</p>
-</li>
-<li>
-<p><strong>D：会增强控制对控制对象的反应 ❌</strong><br>
-这个说法通常出现在自动控制系统中，而在模拟放大电路中，负反馈会降低增益，可能会使响应速度变慢，因此这个选项是错误的。</p>
-</li>
-</ul>
-<p>你的错误在于选了 <strong>D</strong>，而正确答案是 <strong>C</strong>。下次遇到类似题目时，要注意区分自动控制与放大电路的概念。😊</p></blockquote>
-<blockquote>
-<p>[!NOTE]</p>
-<ul>
-<li>
-<p><strong>负反馈</strong>用于提高系统稳定性、减小失真、控制增益，广泛应用于放大器、稳压器、自动控制系统等。</p>
-</li>
-<li>
-<p><strong>正反馈</strong>用于产生振荡、信号再生或状态切换，如振荡器、施密特触发器、无线电接收机等。</p>
-</li>
-<li>
-<p><strong>负反馈让系统趋于稳定，正反馈让系统趋于变化</strong>，各自适用于不同的场景。</p>
-</li>
-</ul>
-<p>所以，如果你希望电路<strong>稳定、抗干扰</strong>，一般用<strong>负反馈</strong>；如果你希望电路<strong>产生振荡或快速切换状态</strong>，一般用<strong>正反馈</strong>！😊</p></blockquote>
-<p>![[Pasted image 20250401174118.png]]</p>
-<blockquote>
-<p>[!NOTE]</p>
-<ul>
-<li>
-<p><strong>为什么是积分电路？</strong></p>
-<ul>
-<li>输入电压通过电阻\(R\)进入运放的反相输入端。</li>
-<li>电容\(C\)连接在运放的反相输入端和输出端之间。</li>
-<li>在这种设置下，输出电压与输入电压的时间积分成比例。换句话说，输出电压是输入电压随时间累积结果的反映。</li>
-</ul>
-</li>
-<li>
-<p><strong>它的作用是什么？</strong></p>
-<ul>
-<li>积分电路能够将输入信号的变化率转换为输出电压水平。如果输入是一个固定不变的电压，输出会随着时间线性增加或减少（取决于输入电压的正负）。</li>
-<li>这种电路常用于模拟计算中执行积分操作，比如在信号处理、滤波器设计以及控制系统中。</li>
-</ul>
-</li>
-</ul>
-<p>简单来说，该电路之所以被识别为积分电路，是因为它能对输入电压进行积分操作，并在输出端产生相应的电压变化。因此，正确答案是D：积分电路。</p></blockquote>
-<p>![[Pasted image 20250402153619.png]]
-![[Pasted image 20250402153748.png]]</p>
-<blockquote>
-<p>[!NOTE]</p>
-<ul>
-<li>
-<p><strong>选项A：HSI</strong></p>
-<ul>
-<li>​<strong>错误原因</strong>：HSI是主时钟源之一，STOP模式下主时钟全部关闭（包括HSI、HSE、PLL）。</li>
-<li>只有独立于主时钟的LSI（内部低速RC振荡器）或LSE（外部低速晶振）可能保持运行（用于RTC/IWDG）。</li>
-</ul>
-</li>
-<li>
-<p>​<strong>选项B：PLL</strong></p>
-<ul>
-<li>​<strong>错误原因</strong>：PLL依赖HSI/HSE时钟输入，STOP模式下主时钟关闭，PLL必然停止。</li>
-</ul>
-</li>
-<li>
-<p>​<strong>选项C：ADC</strong></p>
-<ul>
-<li>​<strong>错误原因</strong>：ADC依赖APB2总线时钟（来自主时钟），STOP模式下ADC无法运行。</li>
-<li>即使ADC配置了独立时钟（某些型号支持），STOP模式下也会被关闭。</li>
-</ul>
-</li>
-<li>
-<p>​<strong>选项D：以上均不正确</strong></p>
-<ul>
-<li>​<strong>正确原因</strong>：HSI、PLL、ADC在STOP模式下均不运行，只有不依赖主时钟的外设（如RTC/IWDG）可能工作。</li>
-</ul>
-</li>
-<li>
-<h2 id="1-运行模式-run-mode">1. 运行模式 (Run Mode)
-</h2></li>
-<li>
-<p>​<strong>特点</strong>：CPU 正常运行，所有外设可用</p>
-</li>
-<li>
-<p>​<strong>功耗</strong>：最高（取决于时钟频率和外设使用情况）</p>
-</li>
-<li>
-<p>​<strong>唤醒方式</strong>：N/A（已经是活动模式）</p>
-</li>
-<li>
-<p>​<strong>适用场景</strong>：正常操作时使用</p>
-</li>
-</ul>
-<h2 id="2-睡眠模式-sleep-mode">2. 睡眠模式 (Sleep Mode)
-</h2><ul>
-<li>​<strong>进入方式</strong>：执行 <code>WFI</code> (Wait For Interrupt) 或 <code>WFE</code> (Wait For Event) 指令</li>
-<li>​<strong>特点</strong>：
-<ul>
-<li>CPU 停止运行</li>
-<li>外设保持运行（时钟继续供给）</li>
-<li>所有中断和事件都可以唤醒</li>
-</ul>
-</li>
-<li>​<strong>功耗</strong>：中等（比运行模式低）</li>
-<li>​<strong>唤醒时间</strong>：最快（只需恢复 CPU 运行）</li>
-<li>​<strong>适用场景</strong>：短时间空闲等待中断</li>
-</ul>
-<h2 id="3-停止模式-stop-mode">3. 停止模式 (Stop Mode)
-</h2><ul>
-<li>​<strong>进入方式</strong>：设置 PWR_CR 寄存器中的 LPDS 位和 PDDS 位，然后执行 WFI/WFE</li>
-<li>​<strong>特点</strong>：
-<ul>
-<li>1.8V 域的所有时钟停止</li>
-<li>保留 SRAM 和寄存器内容</li>
-<li>可选择保持电压调节器开启(LPDS=0)或进入低功耗调节器模式(LPDS=1)</li>
-<li>部分外设可以工作（如独立看门狗、RTC）</li>
-</ul>
-</li>
-<li>​<strong>功耗</strong>：低（μA 级别）</li>
-<li>​<strong>唤醒方式</strong>：
-<ul>
-<li>外部中断（EXTI）</li>
-<li>RTC 闹钟</li>
-<li>独立看门狗中断</li>
-</ul>
-</li>
-<li>​<strong>唤醒时间</strong>：较快（需要重新启动时钟）</li>
-<li>​<strong>适用场景</strong>：较长时间的低功耗需求，需要快速唤醒</li>
-</ul>
-<h2 id="4-待机模式-standby-mode">4. 待机模式 (Standby Mode)
-</h2><ul>
-<li>​<strong>进入方式</strong>：设置 PWR_CR 寄存器中的 PDDS 位，然后执行 WFI/WFE</li>
-<li>​<strong>特点</strong>：
-<ul>
-<li>1.8V 域断电（除备份域和待机电路）</li>
-<li>SRAM 和寄存器内容丢失（备份寄存器保持）</li>
-<li>所有外设停止工作</li>
-<li>可以选择保持 RTC 和备份寄存器供电</li>
-</ul>
-</li>
-<li>​<strong>功耗</strong>：最低（nA 级别）</li>
-<li>​<strong>唤醒方式</strong>：
-<ul>
-<li>NRST 引脚外部复位</li>
-<li>IWDG 复位</li>
-<li>WKUP 引脚上升沿</li>
-<li>RTC 闹钟</li>
-</ul>
-</li>
-<li>​<strong>唤醒时间</strong>：最长（相当于复位，需要重新初始化系统）</li>
-<li>​<strong>适用场景</strong>：极低功耗需求，可以接受复位式唤醒</li>
-</ul>
-<h2 id="5-低功耗运行模式-low-power-run-mode">5. 低功耗运行模式 (Low-power Run Mode)
-</h2><ul>
-<li>​<strong>特点</strong>：
-<ul>
-<li>CPU 运行在较低频率</li>
-<li>使用低功耗电压调节器</li>
-<li>外设可以工作在降低的性能水平</li>
-</ul>
-</li>
-<li>​<strong>功耗</strong>：介于运行模式和睡眠模式之间</li>
-<li>​<strong>适用场景</strong>：需要持续运行但功耗敏感的应用</li>
-</ul></blockquote>
-<p>![[Pasted image 20250402155101.png]]
-![[Pasted image 20250402155439.png]]</p>
-<blockquote>
-<p>[!NOTE]
-查询手册
-![[Pasted image 20250402155450.png]]
-![[Pasted image 20250402155506.png]]
-![[Pasted image 20250402155711.png]]</p></blockquote>
-<p>![[Pasted image 20250402160107.png]]</p>
-<blockquote>
-<p>[!NOTE]</p>
-<h4 id="1-光电二极管的核心特性">1. ​<strong>光电二极管的核心特性</strong>
-</h4><p>光电二极管（Photodiode）是一种将光信号转换为电信号的半导体器件，其关键特性如下：</p>
-<hr>
-<h5 id="1pn结结构选项a">（1）​<strong>PN结结构（选项A）​</strong>
-</h5><ul>
-<li>​<strong>正确性</strong>：✔️<br>
-所有光电二极管内部<strong>至少有一个PN结</strong>，这是其实现光电转换的基础结构。
-<ul>
-<li>工作原理：光子在PN结附近激发电子-空穴对，形成光电流。</li>
-</ul>
-</li>
-</ul>
-<h5 id="2电路连接方式选项bc">（2）​<strong>电路连接方式（选项B/C）​</strong>
-</h5><ul>
-<li>
-<p>​<strong>反接（选项B）​</strong>：✔️<br>
-光电二极管在电路中<strong>通常反向偏置（反接）​</strong>：</p>
-<ul>
-<li>阴极接正电压，阳极接负电压（或地）。</li>
-<li>目的：增大耗尽区宽度，提高光电转换效率和响应速度。</li>
-<li>​<strong>反偏时的行为</strong>：无光照时仅有微小暗电流；有光照时产生显著光电流。</li>
-</ul>
-</li>
-<li>
-<p>​<strong>正接（选项C）​</strong>：❌<br>
-若正向偏置（正接），PN结导通，光电特性被掩盖，失去光敏功能。</p>
-</li>
-</ul>
-<h5 id="3光敏感性选项d">（3）​<strong>光敏感性（选项D）​</strong>
-</h5><ul>
-<li>​<strong>正确性</strong>：✔️<br>
-光电二极管对<strong>环境光强度高度敏感</strong>，输出电流与光照强度成正比（线性关系）。
-<ul>
-<li>应用场景：光强检测、红外遥控、光纤通信等。</li>
-</ul>
-</li>
+<li>有人将“7 位地址 + 1 位读写标志”误以为是“8 位地址”，但在 I²C 协议定义中，<strong>读写标志并不计入地址位数</strong>，因此**不存在“8</li>
 </ul></blockquote>
 
 </section>
