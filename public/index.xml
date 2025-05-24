@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>19y的技术栈</title>
-        <link>http://localhost:1313/</link>
+        <link>https://www.19y.cc/</link>
         <description>Recent content on 19y的技术栈</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>© 19y</copyright>
-        <lastBuildDate>Fri, 04 Apr 2025 14:56:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Apr 2025 14:56:49 +0800</lastBuildDate><atom:link href="https://www.19y.cc/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>蓝桥杯嵌入式选择题部分错题集</title>
-        <link>http://localhost:1313/p/blue-bridge-cup-choose/</link>
+        <link>https://www.19y.cc/p/blue-bridge-cup-choose/</link>
         <pubDate>Fri, 04 Apr 2025 14:56:49 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/blue-bridge-cup-choose/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250217104715.png&#34;
+        <guid>https://www.19y.cc/p/blue-bridge-cup-choose/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250217104715.png&#34;
 	
 	
 	
@@ -21,7 +21,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250217104803.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250217104803.png&#34;
 	
 	
 	
@@ -29,7 +29,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250217115425.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250217115425.png&#34;
 	
 	
 	
@@ -37,7 +37,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250217151824.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250217151824.png&#34;
 	
 	
 	
@@ -45,7 +45,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250217152223.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250217152223.png&#34;
 	
 	
 	
@@ -93,7 +93,7 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312095023.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312095023.png&#34;
 	
 	
 	
@@ -104,7 +104,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 答案:D，最高位为1，为负数，负数的补码等于反码取反+1，负数取反符号位不变，得11010100，+1得11010101&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312095838.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312095838.png&#34;
 	
 	
 	
@@ -116,7 +116,7 @@
 &lt;p&gt;[!NOTE]
 &lt;strong&gt;D：AHB2&lt;/strong&gt;
 在 STM32G4 系列中，GPIO 外设是挂载在 &lt;strong&gt;AHB2 总线&lt;/strong&gt; 上的，因此需要在 RCC 的 AHB2 外设时钟寄存器 (RCC_AHB2ENR) 中使能对应的 GPIO 端口时钟。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312100030.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312100030.png&#34;
 	
 	
 	
@@ -124,7 +124,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312101836.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312101836.png&#34;
 	
 	
 	
@@ -132,7 +132,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312103331.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312103331.png&#34;
 	
 	
 	
@@ -140,7 +140,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312103615.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312103615.png&#34;
 	
 	
 	
@@ -148,7 +148,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312104611.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312104611.png&#34;
 	
 	
 	
@@ -156,7 +156,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312104140.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312104140.png&#34;
 	
 	
 	
@@ -164,7 +164,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312104926.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312104926.png&#34;
 	
 	
 	
@@ -212,7 +212,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 三极管由三个半导体区（发射极、基极、集电极）组成，内部包含两个PN结（BE结和BC结）。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312105155.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312105155.png&#34;
 	
 	
 	
@@ -288,7 +288,7 @@
 • &lt;strong&gt;微分（C）和积分（D）&lt;/strong&gt; 是波形转换的核心电路，但作用相反。&lt;br&gt;
 • &lt;strong&gt;比例（A）和求和（B）&lt;/strong&gt; 仅处理信号幅度或叠加，不改变波形本质。&lt;br&gt;
 建议结合具体需求（如是否需要波形变换、信号放大或混合）选择电路类型。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312105211.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312105211.png&#34;
 	
 	
 	
@@ -323,7 +323,7 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312105231.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312105231.png&#34;
 	
 	
 	
@@ -331,7 +331,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312105334.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312105334.png&#34;
 	
 	
 	
@@ -339,7 +339,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312105621.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312105621.png&#34;
 	
 	
 	
@@ -347,7 +347,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312105650.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312105650.png&#34;
 	
 	
 	
@@ -355,7 +355,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312105802.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312105802.png&#34;
 	
 	
 	
@@ -366,7 +366,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 此类题目去手册memory map找&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312105915.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312105915.png&#34;
 	
 	
 	
@@ -374,7 +374,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312111236.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312111236.png&#34;
 	
 	
 	
@@ -421,7 +421,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312111540.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312111540.png&#34;
 	
 	
 	
@@ -429,7 +429,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312112058.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312112058.png&#34;
 	
 	
 	
@@ -437,7 +437,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312112407.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312112407.png&#34;
 	
 	
 	
@@ -445,7 +445,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312112748.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312112748.png&#34;
 	
 	
 	
@@ -456,7 +456,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 专用引脚加起来有大约12个（比如4个VDD，4个VSS，1个NRST，2个OSC，2个SWD，可能还有其他），那么剩下的IO数目大概是64-12=52个&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312112900.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312112900.png&#34;
 	
 	
 	
@@ -474,7 +474,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312143932.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312143932.png&#34;
 	
 	
 	
@@ -482,7 +482,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312144144.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312144144.png&#34;
 	
 	
 	
@@ -490,7 +490,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312144601.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312144601.png&#34;
 	
 	
 	
@@ -498,7 +498,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312145218.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312145218.png&#34;
 	
 	
 	
@@ -512,7 +512,7 @@
 &lt;li&gt;​&lt;strong&gt;RS触发器的约束口诀&lt;/strong&gt;：​&lt;strong&gt;​“RS=11是禁忌，输出混乱要规避”​&lt;/strong&gt;。&lt;/li&gt;
 &lt;li&gt;​&lt;strong&gt;JK触发器的优势&lt;/strong&gt;：​&lt;strong&gt;​“JK无约束，11可翻转”​&lt;/strong&gt;。&lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312150818.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312150818.png&#34;
 	
 	
 	
@@ -520,7 +520,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312152618.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312152618.png&#34;
 	
 	
 	
@@ -528,7 +528,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312152911.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312152911.png&#34;
 	
 	
 	
@@ -536,7 +536,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312152937.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312152937.png&#34;
 	
 	
 	
@@ -544,7 +544,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312153141.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312153141.png&#34;
 	
 	
 	
@@ -552,7 +552,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250312153812.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250312153812.png&#34;
 	
 	
 	
@@ -560,7 +560,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250314153142.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250314153142.png&#34;
 	
 	
 	
@@ -568,7 +568,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250317160414.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250317160414.png&#34;
 	
 	
 	
@@ -576,7 +576,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250317161316.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250317161316.png&#34;
 	
 	
 	
@@ -584,7 +584,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250317204316.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250317204316.png&#34;
 	
 	
 	
@@ -596,7 +596,7 @@
 &lt;p&gt;[!NOTE] Title
 注意得用变化的集电极电流除以基极电流
 β定义为三极管放大倍数&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250317205222.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250317205222.png&#34;
 	
 	
 	
@@ -604,7 +604,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250317205239.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250317205239.png&#34;
 	
 	
 	
@@ -612,7 +612,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250319112128.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250319112128.png&#34;
 	
 	
 	
@@ -652,7 +652,7 @@
 &lt;li&gt;常见组合电路：编码/译码器、数据选择/分配器、加法器、比较器。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;通过理解电路是否具备&amp;quot;记忆能力&amp;quot;，可以快速判断此类题型。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250319112228.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250319112228.png&#34;
 	
 	
 	
@@ -660,7 +660,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250319112251.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250319112251.png&#34;
 	
 	
 	
@@ -729,7 +729,7 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;​&lt;strong&gt;核心考点&lt;/strong&gt;：穿透电流ICEO的双重特性（温度稳定性 + 设计限制参数）。&lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250319112832.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250319112832.png&#34;
 	
 	
 	
@@ -800,7 +800,7 @@
 &lt;li&gt;​&lt;strong&gt;核心结论&lt;/strong&gt;：负反馈是运放工作在线性区的必要条件。&lt;/li&gt;
 &lt;li&gt;​&lt;strong&gt;答题关键&lt;/strong&gt;：直接关联“线性区”与“负反馈”，排除其他非线性工作模式。&lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250319113352.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250319113352.png&#34;
 	
 	
 	
@@ -816,7 +816,7 @@
 &lt;li&gt;​&lt;strong&gt;寄存器&lt;/strong&gt;：CPU内部的存储单元，用于指令执行和临时操作，不存储程序代码。&lt;/li&gt;
 &lt;li&gt;​&lt;strong&gt;E2PROM（Electrically Erasable Programmable ROM）​&lt;/strong&gt;：可擦写的非易失性存储器，用于存储配置参数等需长期保存的数据。&lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250319113604.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250319113604.png&#34;
 	
 	
 	
@@ -873,7 +873,7 @@
 &lt;/li&gt;
 &lt;li&gt;​&lt;strong&gt;用户可能忽略&lt;/strong&gt;：误认为Systick是内核功能优先级固定，但其优先级可自由设置。&lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250321210736.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250321210736.png&#34;
 	
 	
 	
@@ -881,7 +881,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250321210746.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250321210746.png&#34;
 	
 	
 	
@@ -889,7 +889,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250321210754.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250321210754.png&#34;
 	
 	
 	
@@ -897,7 +897,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250321210802.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250321210802.png&#34;
 	
 	
 	
@@ -905,7 +905,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250321210809.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250321210809.png&#34;
 	
 	
 	
@@ -913,7 +913,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250321210821.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250321210821.png&#34;
 	
 	
 	
@@ -921,7 +921,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250322181310.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250322181310.png&#34;
 	
 	
 	
@@ -934,7 +934,7 @@
 &lt;ul&gt;
 &lt;li&gt;许多同学一眼看见有“+3 V”和“+9 V”两条支路，就会直觉认为输出可能会是 3 V 或 9 V，结果往往忽略了那条最关键的“通向 0 V”支路。事实上，因为“通向 0 V” 的二极管最先导通，输出会被它死死地钳到 0 V，根本“上不去”3 V 或 9 V。&lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250322182341.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250322182341.png&#34;
 	
 	
 	
@@ -942,7 +942,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250322182643.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250322182643.png&#34;
 	
 	
 	
@@ -969,7 +969,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250322182727.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250322182727.png&#34;
 	
 	
 	
@@ -1007,7 +1007,7 @@
 &lt;p&gt;虽然&lt;strong&gt;部分嵌入式 RTOS 或应用层&lt;/strong&gt;可以做到一定程度的可移植性，但这并&lt;strong&gt;不是所有嵌入式系统的共性&lt;/strong&gt;。不少教材或考试题更倾向于强调嵌入式的“专用、定制、不可随意跨平台”的一面，因此&lt;strong&gt;D 往往被排除&lt;/strong&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250322182800.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250322182800.png&#34;
 	
 	
 	
@@ -1015,7 +1015,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250322183431.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250322183431.png&#34;
 	
 	
 	
@@ -1023,7 +1023,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250325190843.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250325190843.png&#34;
 	
 	
 	
@@ -1031,7 +1031,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250325190853.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250325190853.png&#34;
 	
 	
 	
@@ -1039,7 +1039,7 @@
 	
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250325191110.png&#34;
+&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250325191110.png&#34;
 	
 	
 	
@@ -1067,7 +1067,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;所以当电压增益为 -20 dB 时，对应的&lt;strong&gt;线性电压增益&lt;/strong&gt;是 0.10.1 倍（也可以理解为衰减 10 倍）。因此题目中的正确答案是 0.1 倍。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250325191402.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250325191402.png&#34;
 	
 	
 	
@@ -1120,7 +1120,7 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;3-结论&#34;&gt;3. 结论
 &lt;/h2&gt;&lt;p&gt;由于多级放大器的总通频带是各级通频带综合作用的结果，而每级的高低频衰减特性相叠加后，往往导致&lt;strong&gt;整体频率范围（带宽）变窄&lt;/strong&gt;，这是理论与实际中都能观察到的普遍规律。所以正确答案为 &lt;strong&gt;B：变窄&lt;/strong&gt;。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250325191635.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.19y.cc/Pasted%20image%2020250325191635.png&#34;
 	
 	
 	
@@ -1156,10 +1156,10 @@
         </item>
         <item>
         <title>全场景md测试</title>
-        <link>http://localhost:1313/p/slugtest/</link>
+        <link>https://www.19y.cc/p/slugtest/</link>
         <pubDate>Fri, 04 Apr 2025 13:05:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/slugtest/</guid>
+        <guid>https://www.19y.cc/p/slugtest/</guid>
         <description>&lt;h1 id=&#34;markdown-全格式测试文档&#34;&gt;Markdown 全格式测试文档
 &lt;/h1&gt;&lt;h2 id=&#34;1-标题与段落&#34;&gt;1. 标题与段落
 &lt;/h2&gt;&lt;p&gt;这是普通段落，展示&lt;strong&gt;加粗&lt;/strong&gt;、&lt;em&gt;斜体&lt;/em&gt;、&lt;del&gt;删除线&lt;/del&gt;和&lt;code&gt;行内代码&lt;/code&gt;。&lt;br&gt;
@@ -1322,10 +1322,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>全格式测试</title>
-        <link>http://localhost:1313/p/%E5%85%A8%E6%A0%BC%E5%BC%8F%E6%B5%8B%E8%AF%95/</link>
+        <link>https://www.19y.cc/p/%E5%85%A8%E6%A0%BC%E5%BC%8F%E6%B5%8B%E8%AF%95/</link>
         <pubDate>Fri, 04 Apr 2025 12:55:58 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%85%A8%E6%A0%BC%E5%BC%8F%E6%B5%8B%E8%AF%95/</guid>
+        <guid>https://www.19y.cc/p/%E5%85%A8%E6%A0%BC%E5%BC%8F%E6%B5%8B%E8%AF%95/</guid>
         <description>&lt;h1 id=&#34;markdown-全格式测试文档&#34;&gt;Markdown 全格式测试文档
 &lt;/h1&gt;&lt;h2 id=&#34;1-标题与段落&#34;&gt;1. 标题与段落
 &lt;/h2&gt;&lt;p&gt;这是普通段落，展示&lt;strong&gt;加粗&lt;/strong&gt;、&lt;em&gt;斜体&lt;/em&gt;、&lt;del&gt;删除线&lt;/del&gt;和&lt;code&gt;行内代码&lt;/code&gt;。&lt;br&gt;
@@ -1488,26 +1488,26 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>Test</title>
-        <link>http://localhost:1313/p/test/</link>
+        <link>https://www.19y.cc/p/test/</link>
         <pubDate>Fri, 04 Apr 2025 11:54:34 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/test/</guid>
+        <guid>https://www.19y.cc/p/test/</guid>
         <description></description>
         </item>
         <item>
         <title>历史</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://www.19y.cc/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://www.19y.cc/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://www.19y.cc/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://www.19y.cc/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1539,19 +1539,19 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://www.19y.cc/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://www.19y.cc/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://www.19y.cc/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://www.19y.cc/search/</guid>
         <description></description>
         </item>
         
