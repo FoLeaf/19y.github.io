@@ -1,6 +1,6 @@
 +++
 date = '2025-05-24T12:09:21+08:00'
-draft = true
+draft = false
 title = 'CubeMX关于刹车输入的一个小BUG'
 +++
 STM32CUBEMX在配置定时器PWM输出的刹车输入引脚时
